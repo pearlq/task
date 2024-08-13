@@ -1,0 +1,19 @@
+{
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.6",
+    "firebase/php-jwt": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "database\\migrations\\": "database/migrations/",
+      "controllers\\": "app/http/controllers",
+      "models\\": "app/http/models",
+      "middleware\\": "app/middleware",
+      "core\\": "core/",
+      "config\\": "config/",
+      "public\\": "public/",
+      "views\\": "views/"
+    }
+  }
+}
